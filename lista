@@ -1,4 +1,6 @@
+#Carlos/Fred
 
+import Random
 def comprueba (X,L):
     if X in L:
         return false
@@ -13,3 +15,6 @@ def genera():
         if not numero in milista:
             milista.append(numero)
     return milista
+    
+    
+
