@@ -10,3 +10,6 @@ def genera():
     milista=[]
     while len(milista) <6:
         numero=random.choise(L) 
+        if not numero in milista:
+            milista.append(numero)
+    return milista
